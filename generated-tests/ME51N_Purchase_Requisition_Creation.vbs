@@ -162,7 +162,7 @@ If Not sbar Is Nothing Then
     End If
 End If
 On Error GoTo 0
-WScript.Echo "Output: [S] Purchase requisition number 0010000187 created"
+'WScript.Echo "Output: [S] Purchase requisition number 0010000187 created"
 WScript.Echo "INFO - ME51N Purchase Requisition Creation flow completed successfully"
 ' Custom JSON Parser Function
 Function ParseJson(jsonString)
