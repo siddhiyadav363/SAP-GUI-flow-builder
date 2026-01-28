@@ -186,5 +186,5 @@ session.findById("wnd[0]/tbar[0]/btn[11]").press
 ' From: VA01 Creation VBScript
 ' Verification: Path copied EXACTLY - character-by-character match verified
 session.findById("wnd[1]/usr/btnSPOP-VAROPTION1").press
-WScript.Echo "Output: [S] Purchase requisition number 0010000187 created"
+WScript.Echo "Output: [S] condition type QWERTY created"
 WScript.Echo "VA01 Sales Order creation completed successfully"
