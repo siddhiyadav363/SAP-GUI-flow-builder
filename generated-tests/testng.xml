@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Swag Labs Test Suite" parallel="false" verbose="1">
+    <test name="Complete Checkout Flow Tests" preserve-order="true">
+        <classes>
+            <class name="com.swaglab.tests.TC_AIGPMM_38_001_Complete_Checkout_Flow_Single_Product"/>
+        </classes>
+    </test>
+</suite>
