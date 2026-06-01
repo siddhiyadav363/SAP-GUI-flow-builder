@@ -1,12 +1,12 @@
-# Swag Labs Robot Framework Automation
+# Swag Labs Selenium TypeScript Automation Framework
 ## Overview
-Automated test suite for Swag Labs application using Python, Robot Framework, SeleniumLibrary, and Page Object Model pattern.
+Automated test suite for Swag Labs application using TypeScript, Selenium WebDriver, Mocha, and Page Object Model pattern.
 ## Test Case Coverage
 - **TC_AIGPMM_38_001**: Complete Checkout Flow - Single Product
 ## Prerequisites
-- Python 3.8 or higher
-- pip (Python package installer)
+- Node.js (v16 or higher)
+- npm (v8 or higher)
 - Chrome browser
-- ChromeDriver (automatically managed by webdriver-manager)
+- ChromeDriver (automatically managed by selenium-webdriver)
 ## Installation
-### 1. Install Python Dependencies
+### 1. Install Dependencies

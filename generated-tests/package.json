@@ -1,21 +1,17 @@
 {
-  "name": "swaglab-cypress-automation",
+  "name": "swaglab-selenium-typescript-automation",
   "version": "1.0.0",
-  "description": "Automated test suite for Swag Labs application using JavaScript, Cypress, and Page Object Model",
+  "description": "Automated test suite for Swag Labs application using TypeScript, Selenium WebDriver, and Page Object Model",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-    "test:headed": "cypress run --headed",
-    "test:chrome": "cypress run --browser chrome",
-    "test:firefox": "cypress run --browser firefox",
-    "test:edge": "cypress run --browser edge",
-    "test:specific": "cypress run --spec 'cypress/e2e/TC_AIGPMM_38_001_Complete_Checkout_Flow_Single_Product.cy.js'",
-    "open": "cypress open",
-    "clean": "rm -rf cypress/screenshots cypress/videos"
+    "test": "mocha --require ts-node/register 'src/tests/**/*.test.ts' --timeout 120000",
+    "test:specific": "mocha --require ts-node/register 'src/tests/TC_AIGPMM_38_001_Complete_Checkout_Flow_Single_Product.test.ts' --timeout 120000",
+    "build": "tsc",
+    "clean": "rm -rf dist"
   },
   "keywords": [
-    "cypress",
-    "javascript",
+    "selenium",
+    "typescript",
     "automation",
     "testing",
     "e2e",
@@ -25,6 +21,14 @@
   "author": "QA Automation Team",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.6.2"
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.6",
+    "@types/selenium-webdriver": "^4.1.20",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0"
   }
 }
