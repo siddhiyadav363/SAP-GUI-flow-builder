@@ -1,0 +1,9 @@
+{
+  "base_url": "{{base_url}}",
+  "username": "{{username}}",
+  "password": "{{password}}",
+  "first_name": "{{first_name}}",
+  "last_name": "{{last_name}}",
+  "zip_code": "{{zip_code}}",
+  "product_name": "{{product_name}}"
+}
