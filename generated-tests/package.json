@@ -1,0 +1,30 @@
+{
+  "name": "swaglab-cypress-automation",
+  "version": "1.0.0",
+  "description": "Automated test suite for Swag Labs application using JavaScript, Cypress, and Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "test:specific": "cypress run --spec 'cypress/e2e/TC_AIGPMM_38_001_Complete_Checkout_Flow_Single_Product.cy.js'",
+    "open": "cypress open",
+    "clean": "rm -rf cypress/screenshots cypress/videos"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "automation",
+    "testing",
+    "e2e",
+    "swag-labs",
+    "pom"
+  ],
+  "author": "QA Automation Team",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
